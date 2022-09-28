@@ -10,7 +10,7 @@ import (
 const (
 	offWidth uint64 = 4
 	posWidth uint64 = 8
-	// エントリの位置に直接異動するために用
+	// エントリの位置に直接移動するために使用
 	entWidth = offWidth + posWidth
 )
 
